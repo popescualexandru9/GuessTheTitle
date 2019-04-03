@@ -6,7 +6,7 @@ import java.util.HashSet;
 
 public class GuessTheTitle {
 
-    public static void main(String args[]) throws FileNotFoundException {
+    public static void main() throws FileNotFoundException {
 
         Set<String> previousGuesses = new HashSet<>();     // Used to store the previous guesses of the user
         File file = new File("movieTitles.txt"); // Setting the scanner for the file
